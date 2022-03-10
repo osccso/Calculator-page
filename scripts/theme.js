@@ -6,7 +6,7 @@ export default function themeChanger() {
     radio1.addEventListener('change',async e => {
         //importing json files
         let getJson= async () => {
-            let response = await fetch('/scripts/themes.json')
+            let response = await fetch('./scripts/themes.json')
             let data = await response.json()
             return data;
         }
