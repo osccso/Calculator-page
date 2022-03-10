@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200..900&display=swap" rel="stylesheet">  
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header-toggle">
+            <div class="calc-name">calc</div>
+            <div class="calc-toggle">
+                <label class="theme-toggle" for="">THEME</label>
+                <div class="toggle-group">
+                    <label class="number-toggle" for="">1 &nbsp; &nbsp; &nbsp; 2 &nbsp; &nbsp;&nbsp;  3</label>
+                    <div class="toggle-buttons">
+                        <label for="" class="container-toggle">
+                            <input id="theme1" type="radio" name="toggle-group">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label for="" class="container-toggle">
+                            <input id="theme2" type="radio" name="toggle-group">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label for="" class="container-toggle">
+                            <input id="theme3" type="radio" name="toggle-group">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>       
+            </div>
+        </div>
+        <div class="screen">
+            <input id="result" class="result" type="text" disabled>
+        </div>
+        <div class="keypad">
+            <button id="seven" class="calc-button">7</button>
+            <button id="eight" class="calc-button">8</button>
+            <button id="nine" class="number">9</button>
+            <button id="delete" class="reset-delete delete">DEL</button>
+            <button id="four" class="number">4</button>
+            <button id="five" class="number">5</button>
+            <button id="six" class="number">6</buton>
+            <button id="plus" class="number">+</button>
+            <button id="one" class="number">1</button>
+            <button id="two" class="number">2</button>
+            <button id="three" class="number">3</button>
+            <button id="minus" class="number">-</button>
+            <button id="dot" class="number">.</button>
+            <button id="zero" class="number">0</button>
+            <button id="slash" class="number">/</button>
+            <button id="ex" class="number">x</button>
+            <button id="reset" class="reset-delete reset">RESET</button>
+            <button id="equal" class="equal">=</button>
+        </div>
+    </div>
+    <script type="module" defer src="/scripts/main.js"></script>
+</body>
+</html>
