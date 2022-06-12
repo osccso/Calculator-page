@@ -16,4 +16,4 @@ Features:
 
 Deployment: [Link](https://osccso.github.io/Calculator-page/)
 
-Developed by osccso 
+Developed by osccso :rocket:
